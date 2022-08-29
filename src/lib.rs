@@ -2,7 +2,9 @@ use std::arch::global_asm;
 
 use wasm_bindgen::prelude::*;
 use wee_alloc::WeeAlloc;
-// Use `wee_alloc` as the global allocator.
+/*
+Use `wee_alloc` as the global allocator.
+*/
 #[global_allocator]
 static ALLOC: WeeAlloc = WeeAlloc::INIT;
 

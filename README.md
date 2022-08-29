@@ -1,0 +1,2 @@
+# WASM_GAME
+本项目仅为本人初次测试WebAssembly，没有其他技术技术相关能力，采用WebAssembly实现了一个小球运行的小Demo
